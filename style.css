@@ -20,12 +20,13 @@ body {
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+  overflow-y: hidden;
 }
 
 .main {
   min-height: 100vh;
   width: 100%;
-  background-color: #c2bab0;
+  background-color: #121212;
 }
 .main .view1 {
   min-height: 100vh;
@@ -718,6 +719,7 @@ body {
   position: relative;
   border-top: 1px solid #222;
   padding: 1rem 2rem;
+  background-color: #c2bab0;
 }
 .main .view8::after {
   content: "";
@@ -768,6 +770,7 @@ body {
   align-items: center;
   padding: 1.5rem 4rem;
   border-top: 1px solid #222;
+  background-color: #c2bab0;
 }
 .main .footer .lft {
   display: flex;
